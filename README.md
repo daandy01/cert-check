@@ -18,3 +18,6 @@ Then, it loops through all the downloaded files and finds those certificates tha
 The matched cases are documented in a unique .txt file which name contains the date and time it was created.
 In that file the user can see the number of found certificates, the subject and enddate of each found certificate.
 Additionally, in the terminal the user is prompted with an information regarding the number of found certificates.
+
+
+The scripts may be placed in Desktop or more preferably in a seperate directory. Whatever the localisation of the .sh files, the unique .txt files that are going to be created with each run of the script will have the same localisation. In the case of remote certificates, the ones downloaded from a remote host will be placed in a newly created directory also with the same localisation.
