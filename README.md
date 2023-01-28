@@ -1,7 +1,8 @@
 
-Tool for finding local and remote certificates that are going to expire in X amount of time.
+Simple tools for finding local and remote certificates that are going to expire in X amount of time.
 
 This repository contains two .sh files (bash scripts):
+
 1) check_local_certs.sh
 
 This script takes as an argument a path to a directory with local certificates. Then, it loops through all the files in that directory and finds those certificates
